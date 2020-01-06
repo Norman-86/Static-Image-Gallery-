@@ -1,0 +1,35 @@
+body {
+   	padding-top:70px;
+   }
+
+  .jumbotron {
+  background: lightblue;
+ }
+
+.navbar-default {         /*changes the colour of the navbar*/
+	background: #69899f;
+	border-color: #425766;    /*changes the border color of the navbar*/
+}
+
+.navbar-default .navbar-text {   /*changes the text color on the navabar content*/
+   color: #d7e2e9;
+}
+
+.navbar-default .navbar-nav > li > a {  /*changes the text colour of the links nested in the list in navbar*/
+   color: #d7e2e9;
+ }
+
+.navbar-default .navbar-nav > li > .dropdown-menu {  /*changes the background colour of dropdown menu*/
+   background-color: #69899f;
+}
+
+@media (max-width: 767px) {
+   .navbar-default .navbar-nav .open .dropdown-menu > li > a {  /* -defines the color of dropdown list */
+     color: #d7e2e9;
+  }
+
+ .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,  /*defines the color of dropdown list on a mouse hover*/
+ .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+     color: #e5dbdb;     
+   }
+
